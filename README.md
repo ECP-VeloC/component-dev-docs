@@ -1,10 +1,10 @@
-# Component Developer Documentation 
+# Component Developer Documentation
 
-This repository is for developer documentation related to various VELOC / SCR components. 
+This repository is for developer documentation related to various VELOC / SCR components.
 
 ## Status
 
-Repo | Version | Docs? | Testing? 
+Repo | Version | Docs? | Testing?
 -----|---------|-------|---------
 [KVTree](https://github.com/ecp-veloc/kvtree) | ? | ? | ?
 [AXL](https://github.com/ecp-veloc/axl) | ? | ? | ?
@@ -16,4 +16,4 @@ Repo | Version | Docs? | Testing?
 
 ## Components Diagram
 
-![Components Diagram](./component-diagram.png)
+![Components Diagram](./diagram/components.png)

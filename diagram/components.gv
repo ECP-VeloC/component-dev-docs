@@ -1,0 +1,57 @@
+digraph g {
+
+node [color="seagreen2",style=filled];
+AXL [label="AXL\nAsynchronous\nFile Transfer"];
+er [label="er\nRedundancy\n& Encoding"];
+redset [label="redset\nRedundancy Sets"];
+shuffile [label="shuffile\nShuffle Files"];
+KVTree [label="KVTree\nKey-Value\nData Structure"];
+rankstr [label="rankstr\nUnique MPI\nRank Strings"];
+filo [label="filo\nFile Fetching"];
+spath [label="spath\nSCR Paths"];
+
+node [color="sandybrown",style=filled];
+DTCMP;
+DTCMP -> MPI;
+DTCMP -> LWGRP;
+LWGRP;
+LWGRP -> MPI;
+
+node [color="black",style=solid];
+SCR -> DTCMP;
+SCR -> MPI;
+AXL -> KVTree;
+redset -> MPI;
+redset -> KVTree;
+redset -> rankstr;
+er -> MPI;
+er -> KVTree;
+er -> redset;
+er -> shuffile;
+shuffile -> MPI;
+shuffile -> KVTree;
+filo -> MPI;
+filo -> KVTree;
+filo -> spath;
+filo -> AXL;
+filo -> DTCMP;
+rankstr -> MPI;
+
+node [color="black",style=solid];
+SCR2 -> MPI
+SCR2 -> KVTree
+SCR2 -> rankstr
+SCR2 -> spath
+SCR2 -> er
+SCR2 -> filo
+SCR2 -> DTCMP
+
+node [shape=record];
+veloc [label="{ VeloC |{ <fe> Front End | <be> Back End }}"];
+veloc:be -> AXL;
+veloc:be -> er;
+
+edge [style=dotted];
+KVTree -> MPI;
+spath -> MPI;
+}
