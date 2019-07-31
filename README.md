@@ -4,6 +4,8 @@ This repository is for developer documentation related to various VELOC / SCR co
 
 ## Status
 
+All open issues for the components can be view on the [Components Project Board](https://github.com/orgs/ECP-VeloC/projects/1).
+
 Repo | Version | Docs? | Testing?
 -----|---------|-------|---------
 [KVTree](https://github.com/ecp-veloc/kvtree) | ? | ? | ?
