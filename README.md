@@ -4,17 +4,18 @@ This repository is for developer documentation related to various VELOC / SCR co
 
 ## Status
 
-All open issues for the components can be view on the [Components Project Board](https://github.com/orgs/ECP-VeloC/projects/1).
+All open issues for the components can be viewed on the [Components Project Board](https://github.com/orgs/ECP-VeloC/projects/1).
 
-Repo | Version | Docs? | Testing?
------|---------|-------|---------
-[KVTree](https://github.com/ecp-veloc/kvtree) | ? | ? | ?
-[AXL](https://github.com/ecp-veloc/axl) | ? | ? | ?
-[spath](https://github.com/ecp-veloc/spath) | ? | ? | ?
-[filo](https://github.com/ecp-veloc/filo) | ? | ? | ?
-[shuffile](https://github.com/ecp-veloc/shuffile) | ? | ? | ?
-[redset](https://github.com/ecp-veloc/redset) | ? | ? | ?
-[er](https://github.com/ecp-veloc/er) | ? | ? | ?
+Repo | Version | Docs? | Testing? | Travis CI
+-----|---------|-------|----------|----------
+[KVTree](https://github.com/ecp-veloc/kvtree) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/KVTree.png?branch=master)](https://travis-ci.org/ECP-VeloC/KVTree)
+[AXL](https://github.com/ecp-veloc/axl) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/AXL.png?branch=master)](https://travis-ci.org/ECP-VeloC/AXL)
+[spath](https://github.com/ecp-veloc/spath) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/spath.png?branch=master)](https://travis-ci.org/ECP-VeloC/spath)
+[filo](https://github.com/ecp-veloc/filo) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/filo.png?branch=master)](https://travis-ci.org/ECP-VeloC/filo)
+[shuffile](https://github.com/ecp-veloc/shuffile) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/shuffile.png?branch=master)](https://travis-ci.org/ECP-VeloC/shuffile)
+[redset](https://github.com/ecp-veloc/redset) | ? | ? | ? | [![Build Status](https://api.travis-ci.org/ECP-VeloC/redset.png?branch=master)](https://travis-ci.org/ECP-VeloC/redset)
+[er](https://github.com/ecp-veloc/er) | ? | ? | ? | [![Build Status](https://api.travis-ci.org/ECP-VeloC/er.png?branch=master)](https://travis-ci.org/ECP-VeloC/er)
+[rankstr](https://github.com/ecp-veloc/rankstr) | ? | ? | ? | [![Build Status](https://api.travis-ci.org/ECP-VeloC/rankstr.png?branch=master)](https://travis-ci.org/ECP-VeloC/rankstr)
 
 ## Components Diagram
 
