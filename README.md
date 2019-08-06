@@ -1,6 +1,7 @@
 # Component Developer Documentation
 
 This repository is for developer documentation related to various VELOC / SCR components.
+It also contains [documentation on policies](./POLICIES.md) that apply to all of the repositories.
 
 ## Status
 
