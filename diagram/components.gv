@@ -1,14 +1,14 @@
 digraph g {
 
 node [color="seagreen2",style=filled];
-AXL [label="AXL\nAsynchronous\nFile Transfer"];
-er [label="er\nRedundancy\n& Encoding"];
-redset [label="redset\nRedundancy Sets"];
-shuffile [label="shuffile\nShuffle Files"];
-KVTree [label="KVTree\nKey-Value\nData Structure"];
-rankstr [label="rankstr\nUnique MPI\nRank Strings"];
-filo [label="filo\nFile Fetching"];
-spath [label="spath\nSCR Paths"];
+AXL [label="AXL\nAsynchronous\nFile Transfer", URL="group__axl.html"];
+er [label="er\nRedundancy\n& Encoding", URL="group__er.html"];
+redset [label="redset\nRedundancy Sets", URL="group__redset.html"];
+shuffile [label="shuffile\nShuffle Files", URL="group__shuffile.html"];
+KVTree [label="KVTree\nKey-Value\nData Structure", URL="group__kvtree.html"];
+rankstr [label="rankstr\nUnique MPI\nRank Strings", URL="group__rankstr.html"];
+filo [label="filo\nFile Fetching", URL="group__filo.html"];
+spath [label="spath\nSCR Paths", URL="group__spath.html"];
 
 node [color="sandybrown",style=filled];
 DTCMP;
