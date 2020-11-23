@@ -12,7 +12,6 @@ Repo | Version | Docs? | Testing? | Travis CI
 [KVTree](https://github.com/ecp-veloc/kvtree) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/KVTree.png?branch=master)](https://travis-ci.org/ECP-VeloC/KVTree)
 [AXL](https://github.com/ecp-veloc/axl) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/AXL.png?branch=master)](https://travis-ci.org/ECP-VeloC/AXL)
 [spath](https://github.com/ecp-veloc/spath) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/spath.png?branch=master)](https://travis-ci.org/ECP-VeloC/spath)
-[filo](https://github.com/ecp-veloc/filo) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/filo.png?branch=master)](https://travis-ci.org/ECP-VeloC/filo)
 [shuffile](https://github.com/ecp-veloc/shuffile) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/shuffile.png?branch=master)](https://travis-ci.org/ECP-VeloC/shuffile)
 [redset](https://github.com/ecp-veloc/redset) | ? | ? | ? | [![Build Status](https://api.travis-ci.org/ECP-VeloC/redset.png?branch=master)](https://travis-ci.org/ECP-VeloC/redset)
 [er](https://github.com/ecp-veloc/er) | ? | ? | ? | [![Build Status](https://api.travis-ci.org/ECP-VeloC/er.png?branch=master)](https://travis-ci.org/ECP-VeloC/er)
@@ -72,18 +71,6 @@ AXL is used to transfer a file from one path to another using synchronous and as
 This can only be done between storage tiers, AXL does not (yet) support movement within a storage tier (such as between 2 compute nodes).
 Asynchronous methods include via pthreads, IBM BB API, Cray Datawarp.
 AXL will create directories for destination files.
-
-### [FILO](https://github.com/ecp-veloc/filo): File flush and fetch, coordinating file transfers with MPI
-
-Documentation:
-- [SCR dev docs: flush](https://scr-dev.readthedocs.io/en/latest/developers/flow_flush.html)
-- [SCR dev docs: rank2file](https://scr-dev.readthedocs.io/en/latest/developers/file_rank2file.html)
-
-Each process in a communicator registers a list of source and destination paths.
-FILO then computes the union of destination directories and creates them in advance, using minimal mkdir() calls.
-It executes AXL transfers, optionally using a sliding window for flow control.
-It will record ownership map of which rank flushed which file (in the rank2file file).
-This is used to fetch those files back to owner ranks during a restart.
 
 ## Redundancy Encoding/Decoding and File Migration
 
