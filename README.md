@@ -77,6 +77,9 @@ AXL will create directories for destination files.
 ### [Redset](https://github.com/ecp-veloc/redset): Encode/decode a set of files with a redundancy method
 
 Documentation:
+- [API overview](https://github.com/ECP-VeloC/redset/blob/main/doc/rst/redset.rst)
+- [redset data structure](https://github.com/ECP-VeloC/redset/blob/main/doc/rst/implementation.rst)
+- [redundancy schemes](https://github.com/ECP-VeloC/redset/blob/main/doc/rst/schemes.rst)
 - [SCR dev docs: redundancy descriptors](https://scr-dev.readthedocs.io/en/latest/developers/redundancy_descriptors.html)
 - [SCR dev docs: Encoding schemes](https://scr-dev.readthedocs.io/en/latest/developers/schemes.html)
 - [SCR dev docs: XOR scheme](https://scr-dev.readthedocs.io/en/latest/developers/scheme_xor.html)
@@ -94,6 +97,8 @@ Used during restart, shuffile will move a file to the 'owning' MPI rank.
 
 ### [ER](https://github.com/ecp-veloc/er): Encode + Rebuild
 
-ER is the abstraction of shuffile and redset into a single interface, SCR and VeloC use both and er to simplify the rebuilding steps.
-On a restart, shuffile is used to first move files back to owning ranks, depending on new rank-to-node mapping.
-Then redset is used to rebuild missing files after the shuffle.
+ER provides an abstraction around shuffile and redset.
+During encode, ER calls redset to apply a redundancy scheme to a set of files,
+and then it calls shuffile to record which rank owns which files.
+During rebuild, ER first calls shuffile to move files back to their owning ranks,
+and then redset is called to rebuild any missing files.
