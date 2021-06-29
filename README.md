@@ -9,13 +9,13 @@ All open issues for the components can be viewed on the [Components Project Boar
 
 Repo | Version | Docs? | Testing? | Travis CI
 -----|---------|-------|----------|----------
-[KVTree](https://github.com/ecp-veloc/kvtree) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/KVTree.png?branch=master)](https://travis-ci.org/ECP-VeloC/KVTree)
-[AXL](https://github.com/ecp-veloc/axl) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/AXL.png?branch=master)](https://travis-ci.org/ECP-VeloC/AXL)
-[spath](https://github.com/ecp-veloc/spath) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/spath.png?branch=master)](https://travis-ci.org/ECP-VeloC/spath)
-[shuffile](https://github.com/ecp-veloc/shuffile) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/shuffile.png?branch=master)](https://travis-ci.org/ECP-VeloC/shuffile)
-[redset](https://github.com/ecp-veloc/redset) | ? | ? | ? | [![Build Status](https://api.travis-ci.org/ECP-VeloC/redset.png?branch=master)](https://travis-ci.org/ECP-VeloC/redset)
-[er](https://github.com/ecp-veloc/er) | ? | ? | ? | [![Build Status](https://api.travis-ci.org/ECP-VeloC/er.png?branch=master)](https://travis-ci.org/ECP-VeloC/er)
-[rankstr](https://github.com/ecp-veloc/rankstr) | ? | ? | ? | [![Build Status](https://api.travis-ci.org/ECP-VeloC/rankstr.png?branch=master)](https://travis-ci.org/ECP-VeloC/rankstr)
+[KVTree](https://github.com/ecp-veloc/kvtree) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/KVTree.png?branch=main)](https://travis-ci.org/ECP-VeloC/KVTree)
+[AXL](https://github.com/ecp-veloc/axl) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/AXL.png?branch=main)](https://travis-ci.org/ECP-VeloC/AXL)
+[spath](https://github.com/ecp-veloc/spath) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/spath.png?branch=main)](https://travis-ci.org/ECP-VeloC/spath)
+[shuffile](https://github.com/ecp-veloc/shuffile) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/shuffile.png?branch=main)](https://travis-ci.org/ECP-VeloC/shuffile)
+[redset](https://github.com/ecp-veloc/redset) | ? | ? | ? | [![Build Status](https://api.travis-ci.org/ECP-VeloC/redset.png?branch=main)](https://travis-ci.org/ECP-VeloC/redset)
+[er](https://github.com/ecp-veloc/er) | ? | ? | ? | [![Build Status](https://api.travis-ci.org/ECP-VeloC/er.png?branch=main)](https://travis-ci.org/ECP-VeloC/er)
+[rankstr](https://github.com/ecp-veloc/rankstr) | ? | ? | ? | [![Build Status](https://api.travis-ci.org/ECP-VeloC/rankstr.png?branch=main)](https://travis-ci.org/ECP-VeloC/rankstr)
 
 ## Components Diagram
 
@@ -28,11 +28,11 @@ Repo | Version | Docs? | Testing? | Travis CI
 ### [KVTree](https://github.com/ecp-veloc/kvtree): Recursive key-value structure
 
 Documentation:
-- [Overview](https://github.com/ecp-veloc/kvtree/blob/master/doc/rst/users/overview.rst)
-- [API](https://github.com/ecp-veloc/kvtree/blob/master/doc/rst/users/api.rst)
-- [Gather/Scatter](https://github.com/ecp-veloc/kvtree/blob/master/doc/rst/users/gatherscatter.rst)
-- [File Format](https://github.com/ecp-veloc/kvtree/blob/master/doc/rst/users/fileformat.rst)
-- [Debugging](https://github.com/ecp-veloc/kvtree/blob/master/doc/rst/users/debugging.rst)
+- [Overview](https://github.com/ecp-veloc/kvtree/blob/main/doc/rst/users/overview.rst)
+- [API](https://github.com/ecp-veloc/kvtree/blob/main/doc/rst/users/api.rst)
+- [Gather/Scatter](https://github.com/ecp-veloc/kvtree/blob/main/doc/rst/users/gatherscatter.rst)
+- [File Format](https://github.com/ecp-veloc/kvtree/blob/main/doc/rst/users/fileformat.rst)
+- [Debugging](https://github.com/ecp-veloc/kvtree/blob/main/doc/rst/users/debugging.rst)
 - [Related SCR dev doc](https://scr-dev.readthedocs.io/en/latest/developers/hash.html)
 
 Each KVTree object contains a list of key/value pairs.
@@ -44,7 +44,7 @@ It also optionally provides MPI send / recv functions to transfer an object from
 ### [spath](https://github.com/ecp-veloc/spath): represent and manipulate file system paths
 
 Documentation:
-- [Overview](https://github.com/ecp-veloc/spath/blob/master/doc/rst/spath.rst)
+- [Overview](https://github.com/ecp-veloc/spath/blob/main/doc/rst/spath.rst)
 - [Related SCR dev doc](https://scr-dev.readthedocs.io/en/latest/developers/path.html)
 
 Create an spath object from a string.
@@ -63,8 +63,8 @@ It is also used to split processes into groups based on failure group (failure g
 ### [AXL](https://github.com/ecp-veloc/axl): Asynchronous transfer library
 
 Documentation:
-- [Overview](https://github.com/ecp-veloc/axl/blob/master/doc/README.md)
-- [Internal Data Structure](https://github.com/ecp-veloc/axl/blob/master/doc/file_lists.md)
+- [Overview](https://github.com/ecp-veloc/axl/blob/main/doc/README.md)
+- [Internal Data Structure](https://github.com/ecp-veloc/axl/blob/main/doc/file_lists.md)
 - [Related SCR dev doc](https://scr-dev.readthedocs.io/en/latest/developers/file_transfer.html)
 
 AXL is used to transfer a file from one path to another using synchronous and asynchronous methods.
