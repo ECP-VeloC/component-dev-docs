@@ -7,15 +7,16 @@ It also contains [documentation on policies](./POLICIES.md) that apply to all of
 
 All open issues for the components can be viewed on the [Components Project Board](https://github.com/orgs/ECP-VeloC/projects/1).
 
-Repo | Version | Docs? | Testing? | Travis CI
------|---------|-------|----------|----------
-[KVTree](https://github.com/ecp-veloc/kvtree) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/KVTree.png?branch=main)](https://travis-ci.org/ECP-VeloC/KVTree)
-[AXL](https://github.com/ecp-veloc/axl) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/AXL.png?branch=main)](https://travis-ci.org/ECP-VeloC/AXL)
-[spath](https://github.com/ecp-veloc/spath) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/spath.png?branch=main)](https://travis-ci.org/ECP-VeloC/spath)
-[shuffile](https://github.com/ecp-veloc/shuffile) | ? | ? | :heavy_check_mark: | [![Build Status](https://api.travis-ci.org/ECP-VeloC/shuffile.png?branch=main)](https://travis-ci.org/ECP-VeloC/shuffile)
-[redset](https://github.com/ecp-veloc/redset) | ? | ? | ? | [![Build Status](https://api.travis-ci.org/ECP-VeloC/redset.png?branch=main)](https://travis-ci.org/ECP-VeloC/redset)
-[er](https://github.com/ecp-veloc/er) | ? | ? | ? | [![Build Status](https://api.travis-ci.org/ECP-VeloC/er.png?branch=main)](https://travis-ci.org/ECP-VeloC/er)
-[rankstr](https://github.com/ecp-veloc/rankstr) | ? | ? | ? | [![Build Status](https://api.travis-ci.org/ECP-VeloC/rankstr.png?branch=main)](https://travis-ci.org/ECP-VeloC/rankstr)
+Repo | GitHub Actions
+-----|---------------
+[KVTree](https://github.com/ecp-veloc/kvtree)     | [![Build&Test](https://github.com/ECP-VeloC/KVTree/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/ECP-VeloC/KVTree/actions/workflows/build-and-test.yml)
+[AXL](https://github.com/ecp-veloc/axl)           | [![Build Only](https://github.com/ECP-VeloC/AXL/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/ECP-VeloC/AXL/actions/workflows/build-and-test.yml)
+[SPath](https://github.com/ecp-veloc/spath)       | [![Build&Test](https://github.com/ECP-VeloC/spath/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/ECP-VeloC/spath/actions/workflows/build-and-test.yml)
+[Shuffile](https://github.com/ecp-veloc/shuffile) | [![Build Only](https://github.com/ECP-VeloC/shuffile/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/ECP-VeloC/shuffile/actions/workflows/build-and-test.yml)
+[Redset](https://github.com/ecp-veloc/redset)     | [![Build Only](https://github.com/ECP-VeloC/redset/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/ECP-VeloC/redset/actions/workflows/build-and-test.yml)
+[Rankstr](https://github.com/ecp-veloc/rankstr)   | [![Build&Test](https://github.com/ECP-VeloC/rankstr/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/ECP-VeloC/rankstr/actions/workflows/build-and-test.yml)
+[ER](https://github.com/ecp-veloc/er)             | [![Build Only](https://github.com/ECP-VeloC/er/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/ECP-VeloC/er/actions/workflows/build-and-test.yml)
+
 
 ## Components Diagram
 
